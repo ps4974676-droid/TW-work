@@ -1,0 +1,48 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{float}
+
+\begin{document}
+\section{Tables}
+\begin{table}[H]
+\centering
+\caption{Sample course components}
+\begin{tabular}{|l|c|c|}
+\hline
+\rowcolor{gray!20}
+\textbf{Topic} & \textbf{Hours} & \textbf{Status} \\
+\hline
+LaTeX & 7 & Practised \\
+\hline
+Beamer & 3 & Practised \\
+\hline
+Doxygen & 2 & Practised \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Merged cells}
+\begin{tabular}{|c|c|}
+\hline
+\multirow{2}{*}{Merged vertically} & Row 1 \\
+\cline{2-2}
+& Row 2 \\
+\hline
+\multicolumn{2}{|c|}{Merged horizontally} \\
+\hline
+\end{tabular}
+
+\section{Images}
+% Put an image file beside this source and replace diagram.png.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.65\textwidth]{diagram.png}
+\caption{A technical diagram.}
+\label{fig:diagram}
+\end{figure}
+See Figure~\ref{fig:diagram} for the diagram.
+\end{document}
