@@ -1,0 +1,24 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[margin=1in,headheight=15pt]{geometry}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Technical Writing}
+\rhead{Page Styling}
+\cfoot{\thepage}
+
+\begin{document}
+\section{Page setup}
+The geometry package controls page dimensions and margins.
+
+\section{Orientation}
+For a landscape page, load the pdflscape package and place the relevant
+content inside a landscape environment:
+\begin{verbatim}
+\usepackage{pdflscape}
+\begin{landscape}
+...
+\end{landscape}
+\end{verbatim}
+\end{document}
