@@ -1,0 +1,26 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.bcf
+*.run.xml
+
+# Doxygen output
+docs/
+html/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
