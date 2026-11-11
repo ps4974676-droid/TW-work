@@ -1,0 +1,66 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[margin=1in,headheight=15pt]{geometry}
+\usepackage{graphicx,amsmath,amssymb,booktabs,hyperref,fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Technical Writing Portfolio}
+\rhead{Sample Report}
+\cfoot{\thepage}
+\title{A Practical Introduction to Technical Documentation}
+\author{Priyanshu Soni\\B.Tech Computer Science and Engineering\\MNIT Jaipur}
+\date{\today}
+\begin{document}
+\maketitle
+\pagenumbering{roman}
+\begin{abstract}
+This sample report brings together document structure, mathematical notation,
+tables, figures and references in one LaTeX project.
+\end{abstract}
+\tableofcontents
+\listoftables
+\listoffigures
+\clearpage
+\pagenumbering{arabic}
+\chapter{Introduction}
+Technical writing presents specialized information clearly and accurately.
+\section{Objectives}
+\begin{enumerate}
+\item Organize information in a logical order.
+\item Use consistent formatting and notation.
+\item Make sources and figures easy to locate.
+\end{enumerate}
+\chapter{Document Preparation}
+\section{Mathematical notation}
+The arithmetic mean of \(n\) observations is
+\begin{equation}
+\bar{x}=\frac{1}{n}\sum_{i=1}^{n}x_i.
+\label{eq:mean}
+\end{equation}
+Equation~\ref{eq:mean} gives the mean of a dataset.
+\section{Tables}
+\begin{table}[ht]
+\centering
+\caption{Examples of documentation tools}
+\label{tab:tools}
+\begin{tabular}{lll}
+\toprule
+Tool & Purpose & Typical output \\
+\midrule
+LaTeX & Typesetting & PDF \\
+Doxygen & Code documentation & HTML \\
+Beamer & Presentations & PDF slides \\
+Gnuplot & Graph plotting & Image \\
+\bottomrule
+\end{tabular}
+\end{table}
+See Table~\ref{tab:tools} for a short comparison.
+\chapter{Conclusion}
+A structured document is easier to read, review and maintain.
+\begin{thebibliography}{9}
+\bibitem{lamport}
+Leslie Lamport, \textit{LaTeX: A Document Preparation System},
+2nd edition, Addison-Wesley, 1994.
+\bibitem{doxygen}
+Doxygen documentation, \url{https://www.doxygen.nl/}.
+\end{thebibliography}
+\end{document}
