@@ -1,21 +1,19 @@
 # Portfolio map
 
-The course tools support different stages of technical work. This map shows the main route through the repository.
+The course portfolio is arranged around three areas of work.
 
 ~~~mermaid
 flowchart TD
-    A[Learner] --> B[Portfolio overview]
+    A[Learner] --> B[Portfolio overview<br/>README.md]
     B --> C[Document authoring]
     B --> D[Code documentation]
     B --> E[Version control and sharing]
-    C --> F[LaTeX]
-    C --> G[Beamer]
-    C --> H[Google Docs]
-    C --> I[Drawing tools]
-    C --> J[Gnuplot]
-    D --> K[Doxygen]
-    E --> L[Git]
-    E --> M[GitHub]
+    C --> F[LaTeX guide]
+    C --> G[Beamer guide]
+    C --> H[Google Docs guide]
+    D --> I[Doxygen guide]
+    E --> J[Git guide]
+    J --> K[GitHub guide]
 ~~~
 
-The portfolio overview is the root [README](../README.md). Each topic node corresponds to a guide in the repository.
+Drawing tools and graph plotting are retained as practical course material alongside the document-authoring guides. The full topic-by-topic index is in [SYLLABUS-COVERAGE.md](../SYLLABUS-COVERAGE.md).

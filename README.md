@@ -8,41 +8,41 @@ A semester portfolio of the tools and practical work covered in Technical Writin
 
 </div>
 
-## Start here
+## Portfolio overview
 
-This repository is arranged the way the course was taught: first document authoring, then code documentation, and finally version control and sharing. Each guide explains the purpose of a tool, the main features covered in class, and where to find the corresponding examples.
+This repository brings together the documentation and version-control tools covered during the Technical Writing course. The guides are grouped by the kind of work they support.
 
 ## Document authoring
 
-| Guide | What it covers |
+| Guide | Main topics |
 |---|---|
-| [LaTeX](01-document-authoring/latex/README.md) | Document classes, page layout, formatting, mathematics, tables, figures and references |
+| [LaTeX](01-document-authoring/latex/README.md) | Document structure, page layout, formatting, mathematics, tables, figures and references |
 | [Beamer](01-document-authoring/beamer/README.md) | Slides, frames, themes, columns and blocks |
-| [Google Docs](01-document-authoring/google-docs/README.md) | Creating, formatting, reviewing and sharing documents |
-| [Drawing tools](01-document-authoring/drawing-tools/README.md) | Inkscape, Xfig and editable diagrams |
-| [Graph plotting](01-document-authoring/graph-plotting/README.md) | Gnuplot scripts, data files and plots |
+| [Google Docs](01-document-authoring/google-docs/README.md) | Writing, formatting, reviewing and sharing documents |
 
 ## Code documentation
 
-| Guide | What it covers |
+| Guide | Main topics |
 |---|---|
-| [Doxygen](02-code-documentation/doxygen/README.md) | Documenting C++ files, classes, parameters and return values; generating HTML reference pages |
+| [Doxygen](02-code-documentation/doxygen/README.md) | Documenting C++ files, classes, functions, parameters and return values |
 
 ## Version control and sharing
 
-| Guide | What it covers |
+| Guide | Main topics |
 |---|---|
-| [Git](03-version-control/git/README.md) | Repositories, staging, commits, branches, merges and conflict resolution |
-| [GitHub](03-version-control/github/README.md) | Remote repositories, pushing, pull requests and collaboration |
+| [Git](03-version-control/git/README.md) | Repositories, staging, commits, branches and merging |
 
-## Course map and checklist
+## Other practical work
 
-- [Portfolio map](docs/portfolio-map.md) — a compact view of how the topics fit together.
-- [Syllabus checklist](docs/course-checklist.md) — where each syllabus item is covered and what practical evidence to keep.
-- [Original syllabus coverage index](SYLLABUS-COVERAGE.md) — links to the worked examples already in the repository.
+The course also introduced Inkscape, Xfig and Gnuplot. Their notes, editable drawing and plotting examples are kept in the document-authoring section of this repository. A detailed checklist of the complete syllabus is available in \`SYLLABUS-COVERAGE.md\`.
 
-## Working with the examples
+## Using the examples
 
-Most examples are source files rather than screenshots. Compile the LaTeX and Beamer files with a TeX distribution, run the Doxygen configuration to generate HTML, and run the Gnuplot scripts from the repository root as described in their guides. Google Docs and drawing exercises need to be completed in those applications.
+The source files are intended to be opened, compiled and modified:
 
-The examples are meant to be edited and tested. Replace sample text and data with your own material before using any of them in a submission.
+- Compile the LaTeX and Beamer examples with a TeX distribution.
+- Generate the C++ reference pages using the Doxygen configuration.
+- Run the Gnuplot scripts from the repository root, as explained in their guide.
+- Complete the Google Docs and drawing exercises in the respective applications.
+
+Replace sample text and data with your own work before using an example in a submission.

@@ -43,6 +43,8 @@ A branch keeps a change separate while it is being prepared. Merge it after revi
 | git pull | Fetch and integrate remote changes |
 | git push | Send local commits to a remote |
 
-For more detail, see the [command reference](command-reference.md), [branching and merging](branching-and-merging.md), and [commit message examples](commit-messages.md).
+## Git and GitHub
 
-For the official reference, see [Git documentation](https://git-scm.com/doc).
+Git manages the local project history. GitHub hosts a remote copy and provides tools for sharing work and reviewing contributions. The [GitHub guide](../github/README.md) covers publishing a repository, pull requests and collaboration.
+
+For additional practice, see the command reference, branching and merging notes, and commit message examples in this folder. The official [Git documentation](https://git-scm.com/doc) is the reference for command behaviour.
