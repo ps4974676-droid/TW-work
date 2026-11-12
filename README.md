@@ -1,53 +1,48 @@
 <div align="center">
 
 # Technical Writing Portfolio
-### Documentation, Typesetting and Version Control
 
-**B.Tech Computer Science & Engineering · MNIT Jaipur**
+**B.Tech Computer Science and Engineering · MNIT Jaipur**
+
+A semester portfolio of the tools and practical work covered in Technical Writing.
 
 </div>
 
-This repository contains my practical work and notes for the Technical Writing course. It brings together the tools used during the semester, with examples that can be opened, edited and reproduced.
+## Start here
 
-## What is covered
+This repository is arranged the way the course was taught: first document authoring, then code documentation, and finally version control and sharing. Each guide explains the purpose of a tool, the main features covered in class, and where to find the corresponding examples.
 
-| Area | Topics |
+## Document authoring
+
+| Guide | What it covers |
 |---|---|
-| Documentation | Google Docs, Doxygen |
-| Drawing | Inkscape, Xfig and vector diagrams |
-| Typesetting | LaTeX document classes, page layout, formatting and mathematics |
-| Academic writing | Tables, figures, cross-references, bibliography and index |
-| Presentations | Beamer frames, columns, blocks and themes |
-| Graphs | Gnuplot scripts and sample data |
-| Version control | Git, GitHub, branches, merges and collaboration |
+| [LaTeX](01-document-authoring/latex/README.md) | Document classes, page layout, formatting, mathematics, tables, figures and references |
+| [Beamer](01-document-authoring/beamer/README.md) | Slides, frames, themes, columns and blocks |
+| [Google Docs](01-document-authoring/google-docs/README.md) | Creating, formatting, reviewing and sharing documents |
+| [Drawing tools](01-document-authoring/drawing-tools/README.md) | Inkscape, Xfig and editable diagrams |
+| [Graph plotting](01-document-authoring/graph-plotting/README.md) | Gnuplot scripts, data files and plots |
 
-## Repository guide
+## Code documentation
 
-- [Syllabus coverage](SYLLABUS-COVERAGE.md)
-- [Documentation tools](01-technical-documentation/README.md)
-- [LaTeX examples](02-latex/README.md)
-- [Beamer presentation](03-beamer/README.md)
-- [Gnuplot exercises](04-graph-plotting/README.md)
-- [Git and GitHub notes](05-version-control/README.md)
-- [Project showcase](06-project-showcase/README.md)
-- [Contributing notes](CONTRIBUTING.md)
+| Guide | What it covers |
+|---|---|
+| [Doxygen](02-code-documentation/doxygen/README.md) | Documenting C++ files, classes, parameters and return values; generating HTML reference pages |
+
+## Version control and sharing
+
+| Guide | What it covers |
+|---|---|
+| [Git](03-version-control/git/README.md) | Repositories, staging, commits, branches, merges and conflict resolution |
+| [GitHub](03-version-control/github/README.md) | Remote repositories, pushing, pull requests and collaboration |
+
+## Course map and checklist
+
+- [Portfolio map](docs/portfolio-map.md) — a compact view of how the topics fit together.
+- [Syllabus checklist](docs/course-checklist.md) — where each syllabus item is covered and what practical evidence to keep.
+- [Original syllabus coverage index](SYLLABUS-COVERAGE.md) — links to the worked examples already in the repository.
 
 ## Working with the examples
 
-LaTeX source files can be compiled with a TeX distribution such as TeX Live or MiKTeX. The Beamer example produces a PDF slide deck. The Doxygen folder contains a small documented C++ program and its configuration. Gnuplot scripts use the sample data included in the graph-plotting section.
+Most examples are source files rather than screenshots. Compile the LaTeX and Beamer files with a TeX distribution, run the Doxygen configuration to generate HTML, and run the Gnuplot scripts from the repository root as described in their guides. Google Docs and drawing exercises need to be completed in those applications.
 
-The Google Docs and drawing-tool sections describe practical workflows; they are not substitutes for the actual documents or editable diagrams created in those applications.
-
-## Course references
-
-1. Leslie Lamport, *LaTeX: A Document Preparation System*, 2nd edition, Addison-Wesley, 1994.
-2. [LaTeX Project](https://www.latex-project.org/)
-3. [Doxygen documentation](https://www.doxygen.nl/)
-4. [Overleaf Learn](https://www.overleaf.com/learn)
-5. [Git documentation](https://git-scm.com/doc)
-6. [GitHub Docs](https://docs.github.com/)
-7. [Gnuplot documentation](http://www.gnuplot.info/documentation.html)
-
----
-
-*Course portfolio maintained as a record of practical exercises and reference material.*
+The examples are meant to be edited and tested. Replace sample text and data with your own material before using any of them in a submission.
