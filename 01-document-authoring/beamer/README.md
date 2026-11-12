@@ -4,13 +4,13 @@ Beamer is a LaTeX document class for making slide presentations. A presentation 
 
 ## Open the example
 
-The course example is [presentation.tex](examples/presentation.tex). Compile it from the examples folder:
+The course example is `examples/presentation.tex`. Compile it from the examples folder:
 
-~~~bash
+```bash
 cd 01-document-authoring/beamer/examples
 pdflatex presentation.tex
 pdflatex presentation.tex
-~~~
+```
 
 The output is a PDF slide deck.
 
@@ -23,6 +23,6 @@ The output is a PDF slide deck.
 - Block and alert-block environments for grouping important content.
 - Lists and mathematical expressions.
 
-For a suggested slide sequence, see [slide planning](slide-planning.md).
+The `slide-planning.md` file contains a suggested presentation sequence.
 
 Keep one main idea on each slide. A slide should support the speaker, not contain the entire report.
