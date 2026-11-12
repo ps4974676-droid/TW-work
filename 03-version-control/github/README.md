@@ -6,13 +6,13 @@ GitHub is a hosting and collaboration platform for Git repositories. Git is the 
 
 Create an empty repository on GitHub, then connect it from the project folder:
 
-```bash
+~~~bash
 git remote add origin https://github.com/USERNAME/REPOSITORY.git
 git branch -M main
 git push -u origin main
-```
+~~~
 
-Replace the URL with the address of your own repository. If a remote already exists, inspect it with `git remote -v` rather than adding another one.
+Replace the URL with the address of your own repository. If a remote already exists, inspect it with git remote -v rather than adding another one.
 
 ## Features used in coursework
 
@@ -32,6 +32,8 @@ Replace the URL with the address of your own repository. If a remote already exi
 4. Push the branch to GitHub.
 5. Open a pull request and explain what changed.
 6. Review feedback, make corrections and merge when ready.
+
+For the step-by-step publishing process, see [publishing a repository](publishing-a-repository.md).
 
 Never commit passwords, API keys, access tokens or private documents. Check repository visibility and sharing permissions before publishing coursework.
 

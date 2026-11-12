@@ -6,14 +6,9 @@ Drawing tools are useful for making diagrams that explain a process, system or r
 
 Inkscape is a vector graphics editor. Vector objects such as paths, shapes and text can be resized without becoming pixelated. It is suitable for flowcharts, labelled diagrams and simple illustrations.
 
-Practise:
-- Creating rectangles, circles, lines and arrows.
-- Aligning and distributing objects.
-- Adding labels and grouping related shapes.
-- Using layers when a drawing becomes crowded.
-- Saving an editable SVG and exporting a PNG or PDF copy.
+Practise creating shapes, lines and arrows; aligning and distributing objects; grouping related items; and saving an editable SVG. Export a PDF or PNG copy when a document needs a static figure.
 
-The editable [document workflow diagram](../../01-technical-documentation/drawing-tools/diagrams/document-workflow.svg) is included as a small example.
+The editable [document workflow diagram](document-workflow.svg) is included as a small example. Open it in Inkscape to inspect or change its objects.
 
 ## Xfig
 

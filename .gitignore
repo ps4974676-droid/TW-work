@@ -17,8 +17,8 @@
 *.run.xml
 
 # Doxygen generated output
-/01-technical-documentation/doxygen/docs/
-/01-technical-documentation/doxygen/html/
+/02-code-documentation/doxygen/example/docs/
+/02-code-documentation/doxygen/example/html/
 
 # Gnuplot output files created by the examples
 /marks-plot.png

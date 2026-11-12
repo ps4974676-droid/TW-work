@@ -1,39 +1,41 @@
 # LaTeX
 
-LaTeX is used to prepare structured documents where consistent formatting, mathematical notation, tables, figures and references matter. Unlike a word processor, the source describes the structure and formatting instructions; a TeX engine turns that source into a PDF.
+LaTeX is used to prepare structured documents where consistent formatting, mathematical notation, tables, figures and references matter. The source describes the structure and formatting instructions; a TeX engine turns it into a PDF.
 
 ## Getting started
 
-Install a TeX distribution such as TeX Live on Linux, MiKTeX on Windows or MacTeX on macOS. You can write the source in TeXstudio or use Overleaf in a browser.
+Install a TeX distribution such as TeX Live on Linux, MiKTeX on Windows or MacTeX on macOS. TeXstudio and Overleaf are common editing environments.
 
-The first file to try is [first-document.tex](../../02-latex/basics/first-document.tex).
+Start with [first-document.tex](examples/basics/first-document.tex). Run the following command from the examples/basics directory:
 
-```bash
+~~~bash
 pdflatex first-document.tex
-```
+~~~
 
-Run the command from the folder containing the file. Some documents need more than one compilation pass to update their table of contents, labels or references.
+Some documents need more than one compilation pass to update their table of contents, labels or references.
 
 ## Topics from the course
 
 | Topic | Example |
 |---|---|
-| Article and book classes | [article-vs-book.tex](../../02-latex/basics/article-vs-book.tex) |
-| Sections and table of contents | [structure.tex](../../02-latex/document-structure/structure.tex) |
-| Paper size, margins, headers and orientation | [page-styling.tex](../../02-latex/page-styling/page-styling.tex) |
-| Font styles, alignment, colour and lists | [formatting.tex](../../02-latex/formatting/formatting.tex) |
-| Equations, matrices, sums and cases | [mathematics.tex](../../02-latex/mathematics/mathematics.tex) |
-| Tables, borders, merged cells and images | [tables-images.tex](../../02-latex/tables-and-images/tables-images.tex) |
-| Labels, cross-references, bibliography and index | [references.tex](../../02-latex/references-and-index/references.tex) |
-| A combined report | [report.tex](../../02-latex/complete-report/report.tex) |
+| Article and book classes | [article-vs-book.tex](examples/basics/article-vs-book.tex) |
+| Sections and table of contents | [structure.tex](examples/document-structure/structure.tex) |
+| Paper size, margins, headers and orientation | [page-styling.tex](examples/page-styling/page-styling.tex) |
+| Font styles, alignment, colour and lists | [formatting.tex](examples/formatting/formatting.tex) |
+| Equations, matrices, sums and cases | [mathematics.tex](examples/mathematics/mathematics.tex) |
+| Tables, borders, merged cells and images | [tables-images.tex](examples/tables-and-images/tables-images.tex) |
+| Labels, cross-references, bibliography and index | [references.tex](examples/references-and-index/references.tex) |
+| A combined report | [report.tex](examples/complete-report/report.tex) |
+
+The [quick reference](quick-reference.md) lists commands used throughout the examples.
 
 ## A few commands worth remembering
 
-- `\\section{}` and `\\subsection{}` divide the document into readable parts.
-- `\\textbf{}`, `\\textit{}` and `\\underline{}` change text appearance.
-- `\\begin{itemize}` and `\\begin{enumerate}` create lists.
-- `\\label{}` and `\\ref{}` connect figures, tables and sections.
-- `\\includegraphics{}` inserts an image when the `graphicx` package is loaded.
+- \section{} and \subsection{} divide the document into readable parts.
+- \textbf{}, \textit{} and \underline{} change text appearance.
+- itemize and enumerate create lists.
+- \label{} and \ref{} connect figures, tables and sections.
+- \includegraphics{} inserts an image when the graphicx package is loaded.
 
 ## Reference
 

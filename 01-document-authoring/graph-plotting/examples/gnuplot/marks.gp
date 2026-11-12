@@ -6,4 +6,4 @@ set ylabel "Marks"
 set grid
 set key off
 set yrange [0:100]
-plot "04-graph-plotting/sample-data/marks.dat" using 1:2 with linespoints linewidth 2 pointtype 7
+plot "01-document-authoring/graph-plotting/examples/sample-data/marks.dat" using 1:2 with linespoints linewidth 2 pointtype 7
