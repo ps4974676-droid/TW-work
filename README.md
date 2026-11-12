@@ -10,7 +10,7 @@ A semester portfolio of the tools and practical work covered in Technical Writin
 
 ## Portfolio overview
 
-This repository brings together the documentation and version-control tools covered during the Technical Writing course. The guides are grouped by the kind of work they support.
+This repository brings together the documentation and version-control tools covered during the Technical Writing course.
 
 ## Document authoring
 
@@ -32,17 +32,8 @@ This repository brings together the documentation and version-control tools cove
 |---|---|
 | [Git](03-version-control/git/README.md) | Repositories, staging, commits, branches and merging |
 
-## Other practical work
+## Additional course work
 
-The course also introduced Inkscape, Xfig and Gnuplot. Their notes, editable drawing and plotting examples are kept in the document-authoring section of this repository. A detailed checklist of the complete syllabus is available in \`SYLLABUS-COVERAGE.md\`.
+The course also covered Inkscape, Xfig and Gnuplot. Their notes and practical examples are included in the repository under document authoring. The complete syllabus checklist is maintained separately in SYLLABUS-COVERAGE.md.
 
-## Using the examples
-
-The source files are intended to be opened, compiled and modified:
-
-- Compile the LaTeX and Beamer examples with a TeX distribution.
-- Generate the C++ reference pages using the Doxygen configuration.
-- Run the Gnuplot scripts from the repository root, as explained in their guide.
-- Complete the Google Docs and drawing exercises in the respective applications.
-
-Replace sample text and data with your own work before using an example in a submission.
+The examples are source material to practise with: compile the LaTeX and Beamer files, generate the Doxygen pages, run the Gnuplot scripts, and complete the Google Docs and drawing exercises in their respective applications.

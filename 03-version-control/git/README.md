@@ -4,26 +4,26 @@ Git is a distributed version control system. It records changes to a project so 
 
 ## The basic cycle
 
-~~~bash
+```bash
 git status
 git add README.md
 git diff --staged
 git commit -m "docs: explain the project structure"
 git log --oneline
-~~~
+```
 
 A commit records the staged snapshot. Inspect the staged changes before creating the commit.
 
 ## Branches
 
-~~~bash
+```bash
 git switch -c docs/update-latex-guide
 # make and test the changes
 git add .
 git commit -m "docs: expand the LaTeX guide"
 git switch main
 git merge docs/update-latex-guide
-~~~
+```
 
 A branch keeps a change separate while it is being prepared. Merge it after reviewing and testing the work.
 
@@ -43,8 +43,6 @@ A branch keeps a change separate while it is being prepared. Merge it after revi
 | git pull | Fetch and integrate remote changes |
 | git push | Send local commits to a remote |
 
-## Git and GitHub
+## GitHub
 
 Git manages the local project history. GitHub hosts a remote copy and provides tools for sharing work and reviewing contributions. The [GitHub guide](../github/README.md) covers publishing a repository, pull requests and collaboration.
-
-For additional practice, see the command reference, branching and merging notes, and commit message examples in this folder. The official [Git documentation](https://git-scm.com/doc) is the reference for command behaviour.
