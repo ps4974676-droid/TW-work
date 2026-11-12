@@ -16,4 +16,4 @@ flowchart TD
     J --> K[GitHub guide]
 ~~~
 
-Drawing tools and graph plotting are retained as practical course material alongside the document-authoring guides. The full topic-by-topic index is in [SYLLABUS-COVERAGE.md](../SYLLABUS-COVERAGE.md).
+The topic-by-topic index is in [SYLLABUS-COVERAGE.md](../SYLLABUS-COVERAGE.md).

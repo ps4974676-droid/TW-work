@@ -32,8 +32,6 @@ This repository brings together the documentation and version-control tools cove
 |---|---|
 | [Git](03-version-control/git/README.md) | Repositories, staging, commits, branches and merging |
 
-## Additional course work
+## Course checklist
 
-The course also covered Inkscape, Xfig and Gnuplot. Their notes and practical examples are included in the repository under document authoring. The complete syllabus checklist is maintained separately in SYLLABUS-COVERAGE.md.
-
-The examples are source material to practise with: compile the LaTeX and Beamer files, generate the Doxygen pages, run the Gnuplot scripts, and complete the Google Docs and drawing exercises in their respective applications.
+The complete topic-by-topic index is maintained in [SYLLABUS-COVERAGE.md](SYLLABUS-COVERAGE.md). The examples are starting points for practice: compile the LaTeX and Beamer files, generate the Doxygen pages, and complete the Google Docs exercise in its application.

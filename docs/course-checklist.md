@@ -7,9 +7,7 @@ Use this page to check the repository against the course outline before submitti
 | Documentation with Doxygen | [Doxygen guide](../02-code-documentation/doxygen/README.md) and C++ example | Generated HTML pages and a screenshot of the index |
 | Google Docs | [Google Docs guide](../01-document-authoring/google-docs/README.md) | A real shared document with styles, table, image and page setup |
 | LaTeX and editors | [LaTeX guide](../01-document-authoring/latex/README.md) | Compiled PDF and editable .tex source |
-| Inkscape and Xfig | [Drawing guide](../01-document-authoring/drawing-tools/README.md) | Editable SVG or native drawing file and exported image |
 | Beamer presentations | [Beamer guide](../01-document-authoring/beamer/README.md) | Compiled slide PDF and .tex source |
-| Gnuplot | [Graph plotting guide](../01-document-authoring/graph-plotting/README.md) | Input data, plotting script and generated graph |
 | Git | [Git guide](../03-version-control/git/README.md) | Commit history showing focused changes |
 | GitHub | [GitHub guide](../03-version-control/github/README.md) | Public or instructor-accessible repository link |
 
@@ -31,7 +29,6 @@ See the [LaTeX guide](../01-document-authoring/latex/README.md) for the source f
 - [ ] Every source file opens and has a clear purpose.
 - [ ] LaTeX and Beamer examples compile without errors.
 - [ ] Doxygen generates the HTML pages.
-- [ ] Gnuplot scripts produce the expected graphs.
-- [ ] The Google Docs exercise and drawing exercise have been completed in their applications.
+- [ ] The Google Docs exercise has been completed in the application.
 - [ ] The repository README links work.
 - [ ] No passwords, access tokens or private files have been committed.

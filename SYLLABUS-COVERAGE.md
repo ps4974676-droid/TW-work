@@ -11,10 +11,8 @@
 | Tables and images | [LaTeX guide](01-document-authoring/latex/README.md) | [Tables and figures](01-document-authoring/latex/examples/tables-and-images/tables-images.tex) |
 | Referencing and indexing | [LaTeX guide](01-document-authoring/latex/README.md) | [References example](01-document-authoring/latex/examples/references-and-index/references.tex) |
 | Beamer presentations | [Beamer guide](01-document-authoring/beamer/README.md) | [Presentation source](01-document-authoring/beamer/examples/presentation.tex) |
-| Inkscape and Xfig | [Drawing tools guide](01-document-authoring/drawing-tools/README.md) | [Editable SVG diagram](01-document-authoring/drawing-tools/document-workflow.svg) |
-| Gnuplot | [Graph plotting guide](01-document-authoring/graph-plotting/README.md) | [Scripts and sample data](01-document-authoring/graph-plotting/examples/) |
 | Doxygen | [Doxygen guide](02-code-documentation/doxygen/README.md) | [Documented C++ example](02-code-documentation/doxygen/example/src/) |
 | Git | [Git guide](03-version-control/git/README.md) | [Commit message examples](03-version-control/git/commit-messages.md) |
 | GitHub | [GitHub guide](03-version-control/github/README.md) | Repository, remote and collaboration workflow |
 
-For a submission, keep the actual PDFs, generated Doxygen pages, graphs and application screenshots required by the instructor. The source examples in this repository do not prove that every application exercise has been completed.
+For a submission, keep the actual PDFs, generated Doxygen pages and application screenshots required by the instructor. The source examples in this repository do not prove that every application exercise has been completed.
