@@ -20,8 +20,9 @@
 /01-technical-documentation/doxygen/docs/
 /01-technical-documentation/doxygen/html/
 
-# Gnuplot exports
-*.png
+# Gnuplot output files created by the examples
+/marks-plot.png
+/function-plot.png
 
 # Editor and operating system files
 .vscode/

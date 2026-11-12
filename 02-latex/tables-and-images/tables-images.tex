@@ -1,11 +1,5 @@
 \documentclass[12pt,a4paper]{article}
-\usepackage{graphicx}
-\usepackage{array}
-\usepackage{multirow}
-\usepackage{xcolor}
-\usepackage{colortbl}
-\usepackage{float}
-
+\usepackage{graphicx,array,multirow,xcolor,colortbl,float}
 \begin{document}
 \section{Tables}
 \begin{table}[H]
@@ -24,7 +18,6 @@ Doxygen & 2 & Practised \\
 \hline
 \end{tabular}
 \end{table}
-
 \section{Merged cells}
 \begin{tabular}{|c|c|}
 \hline
@@ -35,12 +28,13 @@ Doxygen & 2 & Practised \\
 \multicolumn{2}{|c|}{Merged horizontally} \\
 \hline
 \end{tabular}
-
 \section{Images}
-% Put an image file beside this source and replace diagram.png.
+% Place diagram.png beside this source to display your own image.
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.65\textwidth]{diagram.png}
+\IfFileExists{diagram.png}
+  {\includegraphics[width=0.65\textwidth]{diagram.png}}
+  {\fbox{\parbox{0.6\textwidth}{\centering Add diagram.png to this folder to replace this placeholder.}}}
 \caption{A technical diagram.}
 \label{fig:diagram}
 \end{figure}
