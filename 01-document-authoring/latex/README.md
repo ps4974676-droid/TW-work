@@ -40,3 +40,7 @@ The `quick-reference.md` file lists commands used throughout the examples.
 ## Reference
 
 The course reference book is Leslie Lamport's *LaTeX: A Document Preparation System*, 2nd edition, Addison-Wesley, 1994. The Overleaf Learn library is also useful for checking package syntax and examples.
+
+## Assignment 6 screenshots
+
+Browse the [TeXstudio-style screenshot gallery](screenshots/README.md) for recreated examples covering fonts, paragraph spacing, equations, boxes, index generation and bibliography. These are illustrative recreations, not original lab-session captures.
