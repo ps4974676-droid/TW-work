@@ -25,6 +25,7 @@ public:
      * @param numerator Number to be divided.
      * @param denominator Number to divide by; must not be zero.
      * @return The quotient.
+     * @throws std::invalid_argument if the denominator is zero.
      */
     double divide(double numerator, double denominator) const;
 };

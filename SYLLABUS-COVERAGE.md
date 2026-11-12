@@ -1,19 +1,20 @@
 # Syllabus coverage
 
-| Course topic | Material in this repository |
-|---|---|
-| Google Docs | [Practical guide](01-technical-documentation/google-docs/README.md) |
-| Doxygen | [Guide](01-technical-documentation/doxygen/README.md) and documented C++ example |
-| Inkscape / Xfig | [Drawing tools](01-technical-documentation/drawing-tools/README.md) and editable SVG |
-| Beamer | [Presentation source](03-beamer/presentation.tex) |
-| Gnuplot | [Plotting guide](04-graph-plotting/README.md) and scripts |
-| Git and GitHub | [Version control notes](05-version-control/README.md) |
-| LaTeX setup and editors | [LaTeX guide](02-latex/README.md) |
-| Article and book classes | [Class comparison](02-latex/basics/article-vs-book.tex) |
-| Page layout and styling | [Page styling example](02-latex/page-styling/page-styling.tex) |
-| Formatting, lists and colour | [Formatting example](02-latex/formatting/formatting.tex) |
-| Mathematical typesetting | [Mathematics example](02-latex/mathematics/mathematics.tex) |
-| Tables, borders and images | [Tables and figures](02-latex/tables-and-images/tables-images.tex) |
-| Cross-references, bibliography and index | [References example](02-latex/references-and-index/references.tex) |
+| Course topic | Guide | Practical material |
+|---|---|---|
+| Google Docs | [Google Docs guide](01-document-authoring/google-docs/README.md) | [Report outline](01-document-authoring/google-docs/report-outline.md) |
+| LaTeX setup and editors | [LaTeX guide](01-document-authoring/latex/README.md) | [First document](02-latex/basics/first-document.tex) |
+| Article and book classes | [LaTeX guide](01-document-authoring/latex/README.md) | [Class comparison](02-latex/basics/article-vs-book.tex) |
+| Page styling | [LaTeX guide](01-document-authoring/latex/README.md) | [Page styling example](02-latex/page-styling/page-styling.tex) |
+| Formatting and lists | [LaTeX guide](01-document-authoring/latex/README.md) | [Formatting example](02-latex/formatting/formatting.tex) |
+| Complex mathematics | [LaTeX guide](01-document-authoring/latex/README.md) | [Mathematics example](02-latex/mathematics/mathematics.tex) |
+| Tables and images | [LaTeX guide](01-document-authoring/latex/README.md) | [Tables and figures](02-latex/tables-and-images/tables-images.tex) |
+| Referencing and indexing | [LaTeX guide](01-document-authoring/latex/README.md) | [References example](02-latex/references-and-index/references.tex) |
+| Beamer presentations | [Beamer guide](01-document-authoring/beamer/README.md) | [Presentation source](03-beamer/presentation.tex) |
+| Inkscape and Xfig | [Drawing tools guide](01-document-authoring/drawing-tools/README.md) | [Editable SVG diagram](01-technical-documentation/drawing-tools/diagrams/document-workflow.svg) |
+| Gnuplot | [Graph plotting guide](01-document-authoring/graph-plotting/README.md) | [Scripts and sample data](04-graph-plotting/) |
+| Doxygen | [Doxygen guide](02-code-documentation/doxygen/README.md) | [Documented C++ example](01-technical-documentation/doxygen/src/) |
+| Git | [Git guide](03-version-control/git/README.md) | [Commit message examples](03-version-control/git/commit-messages.md) |
+| GitHub | [GitHub guide](03-version-control/github/README.md) | Repository, remote and collaboration workflow |
 
-This index is intended as a quick check against the course outline. The linked source files are the practical material; the guides explain how to work with them.
+For a submission, keep the actual PDFs, generated Doxygen pages, graphs and application screenshots required by the instructor. The source examples in this repository do not prove that every application exercise has been completed.

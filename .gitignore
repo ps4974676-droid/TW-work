@@ -16,11 +16,15 @@
 *.bcf
 *.run.xml
 
-# Doxygen output
-docs/
-html/
+# Doxygen generated output
+/01-technical-documentation/doxygen/docs/
+/01-technical-documentation/doxygen/html/
+
+# Gnuplot exports
+*.png
 
 # Editor and operating system files
 .vscode/
+.idea/
 .DS_Store
 Thumbs.db
