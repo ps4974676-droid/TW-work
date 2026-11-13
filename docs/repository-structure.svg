@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2047" height="751" viewBox="0 0 2047 751">
+<rect width="2047" height="751" fill="#f2e5ff"/>
+<g font-family="Arial,sans-serif" fill="#172554" text-anchor="middle">
+<circle cx="992" cy="80" r="71" fill="#dce7ff" stroke="#5146ff" stroke-width="2"/><text x="992" y="88" font-size="20">Course reader</text>
+<path d="M992 151 V276" stroke="#111" stroke-dasharray="3 3" stroke-width="1.5"/><path d="M987 267 L992 277 L997 267" fill="#111"/>
+<rect x="875" y="277" width="233" height="82" fill="#dceaff" stroke="#1765ff" stroke-width="2"/><text x="991" y="314" font-size="20">Portfolio overview</text><text x="991" y="337" font-size="19">[README.md]</text>
+</g>
+<g stroke="#111" stroke-width="1.3" fill="none">
+<path d="M913 359 V382 H225 V507 H145 V600"/><path d="M939 359 V406 H420 V600"/><path d="M966 359 V430 H702 V600"/><path d="M991 359 V600"/><path d="M1017 359 V430 H1319 V600"/><path d="M1043 359 V406 H1639 V600"/><path d="M1070 359 V382 H1930 V543"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#111" text-anchor="middle">
+<text x="225" y="476">lists guide</text><text x="420" y="476">lists guide</text><text x="702" y="476">lists guide</text><text x="991" y="476">presents practice</text><text x="1319" y="476">lists guide</text><text x="1639" y="476">lists guide</text><text x="1930" y="476">links index</text>
+</g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="9" y="543" width="1126" height="168" fill="#f7f7f7" stroke="#ddd"/><text x="572" y="562" font-size="18" fill="#111">Document authoring</text>
+<rect x="1182" y="543" width="274" height="168" fill="#f7f7f7" stroke="#ddd"/><text x="1319" y="562" font-size="18" fill="#111">Code documentation</text>
+<rect x="1503" y="543" width="273" height="168" fill="#f7f7f7" stroke="#ddd"/><text x="1640" y="562" font-size="18" fill="#111">Version control</text>
+<g fill="#dceaff" stroke="#1765ff" stroke-width="2">
+<rect x="38" y="600" width="216" height="82"/><rect x="312" y="600" width="216" height="82"/><rect x="588" y="600" width="230" height="82"/><rect x="876" y="600" width="230" height="62"/>
+</g>
+<g font-size="19" fill="#172554"><text x="146" y="635">LaTeX guide</text><text x="146" y="658">[README.md]</text><text x="420" y="635">Beamer guide</text><text x="420" y="658">[README.md]</text><text x="703" y="635">Google Docs guide</text><text x="703" y="658">[README.md]</text><text x="991" y="638">Practice examples</text></g>
+<rect x="1211" y="600" width="216" height="82" fill="#fff0c2" stroke="#e58a00" stroke-width="2"/><text x="1319" y="635" font-size="19" fill="#853b00">Doxygen guide</text><text x="1319" y="658" font-size="19" fill="#853b00">[README.md]</text>
+<rect x="1532" y="600" width="215" height="82" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text x="1639" y="635" font-size="19" fill="#14532d">Git guide</text><text x="1639" y="658" font-size="19" fill="#14532d">[README.md]</text>
+<rect x="1823" y="543" width="216" height="61" fill="#c9fbf2" stroke="#00a58b" stroke-width="2"/><text x="1931" y="580" font-size="19" fill="#134e4a">Syllabus index</text>
+</g>
+<g fill="#111"><path d="M140 591 l5 10 5 -10"/><path d="M415 591 l5 10 5 -10"/><path d="M697 591 l5 10 5 -10"/><path d="M986 591 l5 10 5 -10"/><path d="M1314 591 l5 10 5 -10"/><path d="M1634 591 l5 10 5 -10"/><path d="M1925 534 l5 10 5 -10"/></g>
+<text x="2040" y="742" text-anchor="end" font-family="Arial" font-size="14" fill="#777">TW-work • Repository structure diagram • Recreated from supplied image</text>
+</svg>
